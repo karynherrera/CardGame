@@ -1,9 +1,10 @@
-<div class="mainContainer">
+<div *ngFor ="let carta of mazo" class="mainContainer">
     <div class="theCard">
         <div class="theFront">
+            <img class="front" src="/src/assets/ImgCards/back.png">
         </div>
         <div class="theBack">
-           <img src="/src/assets/ImgCards/ace_of_diamonds.png">
+           <img src="{{mazo[0]}}">
         </div>
       </div>      
 </div>
