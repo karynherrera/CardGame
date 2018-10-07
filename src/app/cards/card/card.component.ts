@@ -20,6 +20,7 @@ export class CardComponent implements OnInit {
     let cartas=[];
     cartas.push(
       "https://firebasestorage.googleapis.com/v0/b/cardgame-a38e9.appspot.com/o/10_of_clubs.png?alt=media&token=ac03cf90-fb85-4b92-bec9-9d32d07ba5a9",
+      
     );
     //console.log(cartas[0]);
     this.mazo = cartas;
